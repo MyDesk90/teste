@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 360" width="100%" height="100%">
+  <!-- Tessellated Dome -->
+  <g id="dome">
+    <!-- Row 1: Top/Center -->
+    <polygon points="250,50 200,90 250,110" fill="#0b4c5f" />
+    <polygon points="250,50 250,110 300,90" fill="#0a5c4e" />
+    <polygon points="200,90 150,110 200,150" fill="#0a3c4a" />
+    <polygon points="200,90 200,150 250,110" fill="#0f7c85" />
+    <polygon points="250,110 200,150 250,170" fill="#008080" />
+    <polygon points="250,110 250,170 300,150" fill="#00a896" />
+    <polygon points="250,110 300,150 300,90" fill="#2ecc71" />
+    <polygon points="300,90 300,150 350,110" fill="#26ae60" />
+    
+    <!-- Row 2: Outer Left -->
+    <polygon points="150,110 100,140 140,180" fill="#082d37" />
+    <polygon points="150,110 140,180 200,150" fill="#065464" />
+    <polygon points="200,150 140,180 190,210" fill="#005b5c" />
+    <polygon points="200,150 190,210 250,170" fill="#02c39a" />
+    
+    <!-- Row 3: Outer Right -->
+    <polygon points="300,90 350,110 390,130" fill="#27ae60" />
+    <polygon points="350,110 350,170 300,150" fill="#1abc9c" />
+    <polygon points="350,110 390,130 395,180" fill="#7bed9f" />
+    <polygon points="350,110 395,180 350,170" fill="#a8e6cf" />
+    <polygon points="350,170 395,180 380,210" fill="#cbf3d2" />
+    <polygon points="350,170 380,210 300,170" fill="#52b788" />
+    <polygon points="300,170 380,210 310,225" fill="#74c69d" />
+    
+    <!-- Lime/Yellow Green Tail -->
+    <polygon points="390,130 405,170 395,180" fill="#d4fc79" />
+    <polygon points="395,180 405,170 410,210" fill="#ddf32f" />
+    <polygon points="395,180 410,210 380,210" fill="#c7e910" />
+    
+    <!-- Bottom Under-Arch -->
+    <polygon points="250,170 190,210 250,215" fill="#00a896" />
+    <polygon points="250,170 250,215 310,210" fill="#028090" />
+    <polygon points="250,170 310,210 300,170" fill="#02c39a" />
+  </g>
+
+  <!-- Typography -->
+  <text x="80" y="300" font-family="'Inter', 'Outfit', 'Segoe UI', sans-serif" font-size="68" font-weight="900" fill="#00B050" letter-spacing="1">NEO</text>
+  <text x="250" y="300" font-family="'Inter', 'Outfit', 'Segoe UI', sans-serif" font-size="68" font-weight="900" fill="#0070C0" letter-spacing="1">SOL</text>
+  
+  <!-- Registered Trademark -->
+  <text x="420" y="250" font-family="'Inter', 'Outfit', 'Segoe UI', sans-serif" font-size="22" font-weight="bold" fill="#8b9bb4">®</text>
+</svg>
