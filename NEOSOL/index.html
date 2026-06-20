@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Neo Sol | Relaunch Global</title>
+  <meta name="description" content="Neo Sol - Relaunching globally in 2026. AI Solutions, Cybersecurity Support, and Telecom Applications.">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+
+  <!-- Ambient Glow Spheres -->
+  <div class="glow-sphere glow-sphere-1"></div>
+  <div class="glow-sphere glow-sphere-2"></div>
+
+  <!-- Header Navigation -->
+  <header>
+    <div class="nav-container">
+      <a href="#" class="logo-link">
+        <!-- Tiny Inline Logo -->
+        <svg viewBox="0 0 500 360" width="45" height="32" style="overflow: visible;">
+          <g transform="scale(0.8) translate(50, 0)">
+            <polygon points="250,50 200,90 250,110" fill="#0b4c5f" />
+            <polygon points="250,50 250,110 300,90" fill="#0a5c4e" />
+            <polygon points="200,90 150,110 200,150" fill="#0a3c4a" />
+            <polygon points="200,90 200,150 250,110" fill="#0f7c85" />
+            <polygon points="250,110 200,150 250,170" fill="#008080" />
+            <polygon points="250,110 250,170 300,150" fill="#00a896" />
+            <polygon points="250,110 300,150 300,90" fill="#2ecc71" />
+            <polygon points="300,90 300,150 350,110" fill="#26ae60" />
+            <polygon points="150,110 100,140 140,180" fill="#082d37" />
+            <polygon points="150,110 140,180 200,150" fill="#065464" />
+            <polygon points="200,150 140,180 190,210" fill="#005b5c" />
+            <polygon points="200,150 190,210 250,170" fill="#02c39a" />
+            <polygon points="300,90 350,110 390,130" fill="#27ae60" />
+            <polygon points="350,110 350,170 300,150" fill="#1abc9c" />
+            <polygon points="350,110 390,130 395,180" fill="#7bed9f" />
+            <polygon points="350,110 395,180 350,170" fill="#a8e6cf" />
+            <polygon points="350,170 395,180 380,210" fill="#cbf3d2" />
+            <polygon points="350,170 380,210 300,170" fill="#52b788" />
+            <polygon points="300,170 380,210 310,225" fill="#74c69d" />
+            <polygon points="390,130 405,170 395,180" fill="#d4fc79" />
+            <polygon points="395,180 405,170 410,210" fill="#ddf32f" />
+            <polygon points="395,180 410,210 380,210" fill="#c7e910" />
+            <polygon points="250,170 190,210 250,215" fill="#00a896" />
+            <polygon points="250,170 250,215 310,210" fill="#028090" />
+            <polygon points="250,170 310,210 300,170" fill="#02c39a" />
+          </g>
+        </svg>
+        <span class="logo-text"><span class="logo-text-neo">NEO</span> <span class="logo-text-sol">SOL</span></span>
+      </a>
+
+      <!-- Nav Menu -->
+      <nav>
+        <ul>
+          <li><a href="#" data-i18n="nav-home">Início</a></li>
+          <li><a href="#history" data-i18n="nav-history">Nossa História</a></li>
+          <li><a href="#pillars" data-i18n="nav-pillars">Soluções</a></li>
+          <li><a href="#calculator" data-i18n="nav-calculator">Simulador</a></li>
+          <li><a href="#contact" data-i18n="nav-contact">Contato</a></li>
+          <li>
+            <!-- Language Picker -->
+            <div class="lang-selector">
+              <button id="lang-pt" class="lang-btn active">PT</button>
+              <button id="lang-en" class="lang-btn">EN</button>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <div class="badge" data-i18n="hero-badge">O futuro se reinventa</div>
+      <h1>
+        <span data-i18n="hero-title-1">A Evolução das</span> <br>
+        <span class="gradient" data-i18n="hero-title-2">Soluções Corporativas</span>
+      </h1>
+      <p class="hero-desc-large" data-i18n="hero-desc">
+        Nascida no Brasil em 2015 e relançada globalmente em 2026. A Neo Sol conecta Inteligência Artificial, Cibersegurança e Telecomunicações de ponta sob uma única marca-mãe.
+      </p>
+      <div class="hero-actions">
+        <a href="#pillars" class="btn btn-primary" data-i18n="hero-cta-primary">Conhecer Soluções</a>
+        <a href="#contact" class="btn btn-secondary" data-i18n="hero-cta-secondary">Falar com Especialista</a>
+      </div>
+    </div>
+
+    <!-- Interactive Geodesic Logo Visual -->
+    <div class="hero-visual">
+      <svg viewBox="0 0 500 360" width="100%" height="100%">
+        <!-- Tessellated Dome representing the brand symbol -->
+        <g id="dome-hero">
+          <polygon points="250,50 200,90 250,110" fill="#0b4c5f" />
+          <polygon points="250,50 250,110 300,90" fill="#0a5c4e" />
+          <polygon points="200,90 150,110 200,150" fill="#0a3c4a" />
+          <polygon points="200,90 200,150 250,110" fill="#0f7c85" />
+          <polygon points="250,110 200,150 250,170" fill="#008080" />
+          <polygon points="250,110 250,170 300,150" fill="#00a896" />
+          <polygon points="250,110 300,150 300,90" fill="#2ecc71" />
+          <polygon points="300,90 300,150 350,110" fill="#26ae60" />
+          <polygon points="150,110 100,140 140,180" fill="#082d37" />
+          <polygon points="150,110 140,180 200,150" fill="#065464" />
+          <polygon points="200,150 140,180 190,210" fill="#005b5c" />
+          <polygon points="200,150 190,210 250,170" fill="#02c39a" />
+          <polygon points="300,90 350,110 390,130" fill="#27ae60" />
+          <polygon points="350,110 350,170 300,150" fill="#1abc9c" />
+          <polygon points="350,110 390,130 395,180" fill="#7bed9f" />
+          <polygon points="350,110 395,180 350,170" fill="#a8e6cf" />
+          <polygon points="350,170 395,180 380,210" fill="#cbf3d2" />
+          <polygon points="350,170 380,210 300,170" fill="#52b788" />
+          <polygon points="300,170 380,210 310,225" fill="#74c69d" />
+          <polygon points="390,130 405,170 395,180" fill="#d4fc79" />
+          <polygon points="395,180 405,170 410,210" fill="#ddf32f" />
+          <polygon points="395,180 410,210 380,210" fill="#c7e910" />
+          <polygon points="250,170 190,210 250,215" fill="#00a896" />
+          <polygon points="250,170 250,215 310,210" fill="#028090" />
+          <polygon points="250,170 310,210 300,170" fill="#02c39a" />
+        </g>
+        <!-- Text brand elements inside SVG visual -->
+        <text x="80" y="300" font-family="'Outfit', sans-serif" font-size="68" font-weight="900" fill="#00B050" letter-spacing="1">NEO</text>
+        <text x="250" y="300" font-family="'Outfit', sans-serif" font-size="68" font-weight="900" fill="#0070C0" letter-spacing="1">SOL</text>
+        <text x="425" y="250" font-family="'Outfit', sans-serif" font-size="22" font-weight="bold" fill="#5b6c84">®</text>
+      </svg>
+    </div>
+  </section>
+
+  <!-- History Section -->
+  <section id="history">
+    <div class="badge" data-i18n="hist-badge">A fênix tecnológica</div>
+    <h2 class="section-title"><span data-i18n="hist-title">Nossa Trajetória</span></h2>
+    <p class="section-desc" data-i18n="hist-desc">
+      Fundada no Brasil em 2015 como pioneira local em telecomunicações e segurança, a Neo Sol enfrentou os desafios do mercado até pausar suas operações em 2021. Em 2026, com uma nova marca global, infraestrutura de ponta e aquisição do domínio original neosol.com.br, ressurgimos para liderar a próxima revolução tecnológica de IA, segurança digital e comunicações corporativas.
+    </p>
+
+    <!-- Timeline Layout -->
+    <div class="history-timeline">
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-year">2015</div>
+          <h4 class="timeline-title" data-i18n="hist-year-2015-title">Nascimento no Brasil</h4>
+          <p class="timeline-desc" data-i18n="hist-year-2015-desc">
+            Fundação com foco em infraestrutura de rede, conectividade de telecom e primeiros módulos de segurança digital.
+          </p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-year">2021</div>
+          <h4 class="timeline-title" data-i18n="hist-year-2021-title">O Fechamento</h4>
+          <p class="timeline-desc" data-i18n="hist-year-2021-desc">
+            Pausa estratégica e encerramento das operações no mercado brasileiro devido a reestruturações globais.
+          </p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-year">2026</div>
+          <h4 class="timeline-title" data-i18n="hist-year-2026-title">O Renascimento Global</h4>
+          <p class="timeline-desc" data-i18n="hist-year-2026-desc">
+            Aquisição da marca e do domínio original. Relançamento mundial integrando IA de última geração, cibersegurança e apps de telecomunicações.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pillars Section -->
+  <section id="pillars">
+    <div class="badge" data-i18n="pillars-badge">Pilares Tecnológicos</div>
+    <h2 class="section-title"><span data-i18n="pillars-title">Marcas do Ecossistema</span></h2>
+    <p class="section-desc" data-i18n="pillars-desc">
+      Como uma marca-mãe integrada, oferecemos três verticais complementares que pavimentam o caminho da sua empresa para o futuro.
+    </p>
+
+    <div class="pillars-grid">
+      <!-- AI Pillar -->
+      <div class="pillar-card">
+        <div class="pillar-icon">
+          <!-- Brain / AI Icon SVG -->
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/>
+            <path d="M12 6v12"/>
+            <path d="M8 10h8"/>
+            <path d="M8 14h8"/>
+          </svg>
+        </div>
+        <h3 data-i18n="pillar-ai-title">Neo Sol AI</h3>
+        <p data-i18n="pillar-ai-desc">
+          Sistemas avançados de Machine Learning, agentes automatizados de IA e automação inteligente de processos industriais e corporativos.
+        </p>
+      </div>
+
+      <!-- Cyber Pillar -->
+      <div class="pillar-card">
+        <div class="pillar-icon">
+          <!-- Shield / Security Icon SVG -->
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+          </svg>
+        </div>
+        <h3 data-i18n="pillar-cyber-title">Neo Sol Cyber</h3>
+        <p data-i18n="pillar-cyber-desc">
+          Segurança cibernética defensiva e ofensiva. SOC 24/7, auditorias de segurança de dados e planos de mitigação contra ameaças digitais.
+        </p>
+      </div>
+
+      <!-- Telecom Pillar -->
+      <div class="pillar-card">
+        <div class="pillar-icon">
+          <!-- Telecom / Phone Icon SVG -->
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+          </svg>
+        </div>
+        <h3 data-i18n="pillar-telecom-title">Neo Sol Telecom</h3>
+        <p data-i18n="pillar-telecom-desc">
+          Aplicações corporativas de telecom, comunicações unificadas VoIP, infraestrutura Cloud PBX e integração total de canais de voz.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Calculator Section -->
+  <section id="calculator">
+    <div class="calculator-container">
+      <div class="calc-info">
+        <div class="badge" data-i18n="calc-badge">Simulador Interativo</div>
+        <h2 class="section-title"><span data-i18n="calc-title">Descubra sua Solução</span></h2>
+        <p class="section-desc" data-i18n="calc-desc" style="margin-bottom: 0;">
+          Responda a duas perguntas rápidas e nosso sistema recomendará a configuração ideal do ecossistema Neo Sol para o seu negócio.
+        </p>
+      </div>
+
+      <!-- Selector Form -->
+      <div class="calc-form">
+        <div class="calc-group">
+          <label for="calc-size" data-i18n="calc-q1">Qual é o tamanho da sua empresa?</label>
+          <select id="calc-size" class="calc-select">
+            <option value="small" data-i18n="calc-q1-opt1">Startup / Pequena (1-50 colaboradores)</option>
+            <option value="medium" data-i18n="calc-q1-opt2">Média Empresa (51-250 colaboradores)</option>
+            <option value="large" data-i18n="calc-q1-opt3">Corporativa / Grande (250+ colaboradores)</option>
+          </select>
+        </div>
+
+        <div class="calc-group">
+          <label for="calc-challenge" data-i18n="calc-q2">Qual é o seu maior desafio atual?</label>
+          <select id="calc-challenge" class="calc-select">
+            <option value="ai" data-i18n="calc-q2-opt1">Automação e Otimização com IA</option>
+            <option value="cyber" data-i18n="calc-q2-opt2">Proteção de Dados e Defesa Cibernética</option>
+            <option value="telecom" data-i18n="calc-q2-opt3">Conectividade e Telefonia Inteligente</option>
+          </select>
+        </div>
+
+        <button id="calc-submit-btn" class="btn btn-primary" data-i18n="calc-btn">Calcular Solução Ideal</button>
+      </div>
+
+      <!-- Interactive Results Pane (updates client-side via app.js) -->
+      <div class="calc-results-pane col-span-2" style="grid-column: span 2;">
+        <div id="calc-result-card" class="result-card-box hidden">
+          <div class="result-title" data-i18n="calc-result-title">Sua Recomendação Personalizada:</div>
+          <div id="calc-result-text" class="result-text">Recomendação será gerada aqui.</div>
+          <a href="#contact" class="btn btn-secondary" style="margin-top: 1rem; align-self: flex-start;" data-i18n="calc-result-btn">
+            Receber Orçamento Deste Setup
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form Section -->
+  <section id="contact">
+    <div class="contact-grid">
+      <div class="contact-info">
+        <div class="badge" data-i18n="contact-badge">Fale Conosco</div>
+        <h2 class="section-title" data-i18n="contact-title">Pronto para o Próximo Nível?</h2>
+        <p class="section-desc" data-i18n="contact-desc">
+          Inscreva-se para obter acesso prioritário ao relançamento global da Neo Sol e fale diretamente com nossos engenheiros de soluções.
+        </p>
+      </div>
+
+      <div class="contact-form-container">
+        <form id="contact-form">
+          <div class="form-group">
+            <label for="form-name-field" data-i18n="form-name">Nome Completo</label>
+            <input type="text" id="form-name-field" class="form-control" placeholder="Seu nome" required>
+          </div>
+          <div class="form-group">
+            <label for="form-email-field" data-i18n="form-email">E-mail Corporativo</label>
+            <input type="email" id="form-email-field" class="form-control" placeholder="seu@email.com" required>
+          </div>
+          <div class="form-group">
+            <label for="form-company-field" data-i18n="form-company">Nome da Empresa</label>
+            <input type="text" id="form-company-field" class="form-control" placeholder="Nome da empresa" required>
+          </div>
+          <div class="form-group">
+            <label for="form-msg-field" data-i18n="form-msg">Como podemos ajudar?</label>
+            <textarea id="form-msg-field" class="form-control" placeholder="Sua mensagem..." required></textarea>
+          </div>
+          <button type="submit" id="form-submit-btn" class="btn btn-primary" data-i18n="form-submit">Enviar Solicitação</button>
+          
+          <div id="form-success-msg" class="success-message hidden" data-i18n="form-success">
+            Solicitação enviada com sucesso! Nossa equipe entrará em contato em breve.
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo">
+        <svg viewBox="0 0 500 360" width="60" height="40" style="overflow: visible;">
+          <polygon points="250,50 200,90 250,110" fill="#0b4c5f" />
+          <polygon points="250,50 250,110 300,90" fill="#0a5c4e" />
+          <polygon points="200,90 150,110 200,150" fill="#0a3c4a" />
+          <polygon points="200,90 200,150 250,110" fill="#0f7c85" />
+          <polygon points="250,110 200,150 250,170" fill="#008080" />
+          <polygon points="250,110 250,170 300,150" fill="#00a896" />
+          <polygon points="250,110 300,150 300,90" fill="#2ecc71" />
+          <polygon points="300,90 300,150 350,110" fill="#26ae60" />
+          <polygon points="150,110 100,140 140,180" fill="#082d37" />
+          <polygon points="150,110 140,180 200,150" fill="#065464" />
+          <polygon points="200,150 140,180 190,210" fill="#005b5c" />
+          <polygon points="200,150 190,210 250,170" fill="#02c39a" />
+          <polygon points="300,90 350,110 390,130" fill="#27ae60" />
+          <polygon points="350,110 350,170 300,150" fill="#1abc9c" />
+          <polygon points="350,110 390,130 395,180" fill="#7bed9f" />
+          <polygon points="350,110 395,180 350,170" fill="#a8e6cf" />
+          <polygon points="350,170 395,180 380,210" fill="#cbf3d2" />
+          <polygon points="350,170 380,210 300,170" fill="#52b788" />
+          <polygon points="300,170 380,210 310,225" fill="#74c69d" />
+          <polygon points="390,130 405,170 395,180" fill="#d4fc79" />
+          <polygon points="395,180 405,170 410,210" fill="#ddf32f" />
+          <polygon points="395,180 410,210 380,210" fill="#c7e910" />
+          <polygon points="250,170 190,210 250,215" fill="#00a896" />
+          <polygon points="250,170 250,215 310,210" fill="#028090" />
+          <polygon points="250,170 310,210 300,170" fill="#02c39a" />
+        </svg>
+      </div>
+      <p data-i18n="footer-text">
+        © 2026 Neo Sol. Todos os direitos reservados. Relançamento Global sob o domínio original neosol.com.br.
+      </p>
+    </div>
+  </footer>
+
+</body>
+</html>
